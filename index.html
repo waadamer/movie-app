@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMAster</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <img src="img/banner.png" alt="image" class="bg__image">
+    <div class="bg__blur"></div>
+
+    <!-- header  -->
+    <header class="header" id="header">
+        <div class="header__content">
+            <a href="#" class="logo"><img src="img/logo.png" alt="Cinema Master logo" width="100px" height="30px"> </a>
+
+            <div class="header__actions">
+                <i class="ri-notification-2-line"></i>
+                <i class="ri-account-circle-line"></i>
+
+                <div class="header__menu" id="header-menu">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </div>
+
+        <div action="" class="header__search search">
+            <i class="ri-search-line"></i>
+            <input type="search" placeholder="Search movies" class="header__input">
+        </div>
+    </header>
+    <!-- nav side par  -->
+
+    <nav class="nav" id="nav">
+        <div class="nav_menu" id="nav_menu">
+            <a href="index.html" class="nav-logo"><img src="img/logo.png" alt="Cinema Master logo" width="100px"
+                    height="30px"> </a>
+            <ul class="navList">
+                <li class="nav-item">
+                    <a href="index.html" class="navLink">
+                        <i class="ri-home-5-line"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#moviesContainer" class="navLink">
+                        <i class="ri-movie-line"></i>
+                        <span>Movies</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="favorites.html" class="navLink">
+                        <i class="ri-heart-3-line"></i>
+                        <span>Favorites</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <a href="" class="navLink"></a>
+        <div class="nav-close" id="nav_close">
+            <i class="ri-close-line"></i>
+        </div>
+    </nav>
+    <!-- ********************************** -->
+    <main class="main">
+        <article class="banner-card">
+            <a href="#" class="bannerLink">
+                <img class="banner-img" src="img/banner.png" alt="image">
+                <div class="banner-shadow"></div>
+
+                <div class="banner-data">
+                    <h2 class="banner-title">Avengers</h2>
+                    <span class="banner-category">Action</span>
+                </div>
+            </a>
+        </article>
+
+
+    </main>
+    <section id="moviePoster">
+        <div class="container" id="moviesContainer">
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
